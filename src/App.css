@@ -1,3 +1,5 @@
+import "node_modules/video-react/dist/video-react.css"
+
 .App {
   text-align: center;
 }
@@ -30,4 +32,8 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
