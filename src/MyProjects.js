@@ -32,12 +32,27 @@ class MyInfo extends React.Component {
       )
   }
 
+  returnSuperScript = () => {
+    return (
+      <div className = "SuperScript">
+        <h2> SuperScript </h2>
+        <h4> Project by Maria Cristina Simoes & Sivan Adler </h4>
+        <p> SuperScript is a game designed to help teach children how to code in Javascript. SuperScript is built on a Vanilla Javascript front-end, a Ruby on Rails back-end and a custom Chai Test Suite. Upon login, a user will be prompted by a challenge that is specific to each level. Below that challenge is a text editor, where the user will be prompted to fill in the missing line of code to pass the challenge for that level. Upon submit, the text editor executes the code that the user wrote and our custom Chai test suite checks if its return value matches that of the challenge at hand. Users are also able to click the 'hint' button to recieve a clue, or click the 'solution' button to see what the correct answer is for that level.. </p>
+
+        <ReactPlayer url='https://youtu.be/90gPXAhlPMw'/>
+        </div>
+      )
+  }
+
+
+
 
   render () {
       return (
         <div>
         {this.returnMealDeals()}
         {this.returnChersCloset()}
+        {this.returnSuperScript()}
 
         <ReactPlayer url='https://youtu.be/vsE2Q5T--8o'/>
         <ReactPlayer url='https://youtu.be/V-6HR2zln8k'/>

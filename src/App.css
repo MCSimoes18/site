@@ -40,6 +40,10 @@
   background-color: pink;
 }
 
+.SuperScript {
+  background-color: yellow;
+}
+
 html {
   scroll-behavior: smooth;
 }
