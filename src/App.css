@@ -36,6 +36,9 @@
 .MealDeals {
   background-color: red;
 }
+.ChersCloset {
+  background-color: pink;
+}
 
 html {
   scroll-behavior: smooth;
