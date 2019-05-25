@@ -44,6 +44,18 @@ class MyInfo extends React.Component {
       )
   }
 
+  returnSkiPatrol = () => {
+    return (
+      <div className = "SkiPatrol">
+        <h2> Ski Patrol </h2>
+        <h4> Project by Maria Cristina Simoes & Jordan Ginor </h4>
+        <p> Ski Patrol is a booking platform to connect ski instructors and ski students on the mountain for their choice.  A student or an instructor has the option to login. The student can browse available mountains, view instructors at each mountain, view and sort instructor reviews, book an appointment, review an instructor on a previous appointment and edit any profile information or booking. The instructor can view their upcoming appointments, and edit their profile information, including current mountains and price </p>
+
+        <ReactPlayer url='https://youtu.be/70LmEmo09mc'/>
+        </div>
+      )
+  }
+
 
 
 
@@ -53,11 +65,7 @@ class MyInfo extends React.Component {
         {this.returnMealDeals()}
         {this.returnChersCloset()}
         {this.returnSuperScript()}
-
-        <ReactPlayer url='https://youtu.be/vsE2Q5T--8o'/>
-        <ReactPlayer url='https://youtu.be/V-6HR2zln8k'/>
-        <ReactPlayer url='https://youtu.be/90gPXAhlPMw'/>
-        <ReactPlayer url='https://youtu.be/70LmEmo09mc'/>
+        {this.returnSkiPatrol()}
         </div>
       )
     }

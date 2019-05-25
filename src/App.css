@@ -44,6 +44,10 @@
   background-color: yellow;
 }
 
+.SkiPatrol {
+  background-color: blue;
+}
+
 html {
   scroll-behavior: smooth;
 }
